@@ -289,7 +289,10 @@ input[type="text"],input[type="email"],input[type="password"]  {
 <a href="#" target="_blank"><i class="fa fa-google"></i> Sign up with google</a>
 </button>
 </div>
+
 <p class="forget-password">If you forget your password please <a href="#">click here</a></p>
+</a>
+</a>
 </form>
 
 <script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-db44b196776521ea816683afab021f757616c80860d31da6232dedb8d7cc4862.js"></script>
