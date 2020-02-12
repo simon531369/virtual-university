@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <a href="signin.html">Register</a>
+   <!----<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+=======
 <!--<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,6 +14,7 @@
     
    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
+>>>>>>> daa583cee7dfd67688a2239f70cc15490fb41b9c
     <meta http-equiv = "refresh" content = " time ; url = "/>
     
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -39,9 +49,13 @@
                       </label>
                     </div>
                     <button type="submit" class="btn btn-success btn-block">Login</button>
+<<<<<<< HEAD
+                    <button type="submit" class="btn btn-success btn-block">Register</button>
+=======
                     <a href="signin.html">
                     <button type="submit" class="btn btn-success btn-block">Register</button>
                     </a>
+>>>>>>> daa583cee7dfd67688a2239f70cc15490fb41b9c
                 </form>
 
             </div>
@@ -53,6 +67,9 @@
       
       
 </body>
+<<<<<<< HEAD
+</html>
+=======
 </html>-->
 
 
@@ -320,3 +337,4 @@ animate_Me("input[placeholder='Confirm Password']", ".fa-refresh");
 <script src="https://static.codepen.io/assets/editor/iframe/iframeRefreshCSS-e120fd1ef4e480df85dd5faf7ee953074e62dc3d6da49fdf75fe06deb33f93c5.js"></script>
 </body>
 </html>
+>>>>>>> daa583cee7dfd67688a2239f70cc15490fb41b9c
