@@ -39,7 +39,7 @@ Date : 01-Jan-2020
 	</div>
 </div>
 <div id="header-featured">
-	<div id="banner" class="container"> </div>
+	<div id="banner" class="container" > </div>
 </div>
 
 <div id="wrapper">

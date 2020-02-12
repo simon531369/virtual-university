@@ -42,7 +42,7 @@
       </div>
     </div>
     <div class="form sign-up">
-      <h2>You are few steps ahead !</h2>
+      <h2>You are few steps ahead!</h2>
       <label>
         <span>Enter your Name</span>
         <input type="text" />
