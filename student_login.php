@@ -307,7 +307,7 @@ input[type="text"],input[type="email"],input[type="password"]  {
 </button>
 </div>
 
-<p class="forget-password">If you forget your password please <a href="/sandbox/create_pass.php">click here</a></p>
+<p class= "forget-password">If you forget your password please <a href="/sandbox/create_pass.php">click here</a></p>
 </a>
 </a>
 </form>

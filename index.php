@@ -70,7 +70,7 @@ Date : 01-Jan-2020
 <input type="text" placeholder="Subject"/>	
 <input type="text" placeholder="Contact"/>	
 <br/>
-	<textarea rows = "5" cols = "60" name = "description" placeholder="Enter your Message here"></textarea><br/>
+	<textarea rows ="5" cols = "60" name = "description" placeholder="Enter your Message here"></textarea><br/>
     <input type="submit" name="submit" value="Send Message" />
   </div>
   <br/>

@@ -117,7 +117,7 @@ input {
 <div class="container">
 <div id="header">
 <span></span>
-<div class="header_text" < div>
+<div class="header_text"< div>
 <p>Create New Password</p>
 </div>
 </div>
