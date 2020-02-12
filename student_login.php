@@ -1,85 +1,3 @@
-<<<<<<< HEAD
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Bootstrap Example</title>
-    <a href="signin.html">Register</a>
-   <!----<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-=======
-<!--<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Bootstrap Example</title>
-    
-   <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1"> 
->>>>>>> daa583cee7dfd67688a2239f70cc15490fb41b9c
-    <meta http-equiv = "refresh" content = " time ; url = "/>
-    
-<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-
-<link href="css/global.css" type="text/css" rel="stylesheet">
-
-
-<script src="https://ajax.googlepis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-<body>
-    <div class="container-fluid bg">
-        <div class="row">
-            <div class="col-md-4 col-sm-4 col-xs-12"></div>
-            <div class="col-md-4 col-sm-4 col-xs-12">
-                <form class="form-container">
-                    <div class="form-group">
-                      <label for="exampleInputEmail1">Email </label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleInputPassword1">Password</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                    </div>
-                    <div class="form-group">
-                      
-                    </div>
-                    <div class="">
-                      <label>
-                        <input type="checkbox"> Remember me
-                      </label>
-                    </div>
-                    <button type="submit" class="btn btn-success btn-block">Login</button>
-<<<<<<< HEAD
-                    <button type="submit" class="btn btn-success btn-block">Register</button>
-=======
-                    <a href="signin.html">
-                    <button type="submit" class="btn btn-success btn-block">Register</button>
-                    </a>
->>>>>>> daa583cee7dfd67688a2239f70cc15490fb41b9c
-                </form>
-
-            </div>
-       <div class="col-md-4 col-sm-4 col-xs-12"></div>
-
-       </div>
-       </div>
-   
-      
-      
-</body>
-<<<<<<< HEAD
-</html>
-=======
-</html>-->
-
-
-
-
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -306,8 +224,9 @@ input[type="text"],input[type="email"],input[type="password"]  {
 <a href="#" target="_blank"><i class="fa fa-google"></i> Sign up with google</a>
 </button>
 </div>
-
+<a href="create_pass.php">
 <p class="forget-password">If you forget your password please <a href="#">click here</a></p>
+</a>
 </a>
 </a>
 </form>
@@ -337,4 +256,4 @@ animate_Me("input[placeholder='Confirm Password']", ".fa-refresh");
 <script src="https://static.codepen.io/assets/editor/iframe/iframeRefreshCSS-e120fd1ef4e480df85dd5faf7ee953074e62dc3d6da49fdf75fe06deb33f93c5.js"></script>
 </body>
 </html>
->>>>>>> daa583cee7dfd67688a2239f70cc15490fb41b9c
+
