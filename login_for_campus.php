@@ -8,10 +8,11 @@
 <title>Login/Sign_Up</title>
 <link rel="stylesheet" href="\mavoix\k3project\sandbox\css\style_for_login.css" type="text/css" media="all" />
 </head>
-<body><br/><br/>
+<body><br/>
+<br/>
 <div class="cont">
   <div class="form sign-in">
-    <h2>Welcome back</h2>
+    <h2>Welcome back </h2>
     <label>
       <span>Enter Your Email</span>
       <input type="email" />
