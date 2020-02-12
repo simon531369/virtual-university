@@ -8,8 +8,9 @@ Version : v1.0
 Date : 01-Jan-2020
 ====================================
 -->
-<Html>
+<html>
 <head>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
 <meta charset= "utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -47,19 +48,19 @@ Date : 01-Jan-2020
 		<div id="featured" class="extra2 margin-btm container">
 			<div class="main-title">
 				<h2>Welcome</h2>
-				<span class="byline">VU is a State University in the Republic of India</span> </div>
-			<div class="ebox1"> <span class="fa fa-pagelines"></span>
+				<span class="byline">The Virtual University offers Higher Education in Technical Fields</span> </div>
+			<div class="ebox1"> <span class="fas fa-school" style='font-size:70px;color:blue'></span>
 				<div class="title">
-					<h2>For Campus Login</h2>
+				<br/><h2>Campus</h2>
 					<span class="byline">For all campuses under VU</span> </div>
 					<p>VU is one of the largest universities in India with 218 colleges affiliated to it with an intake capacity of over 467,100 undergraduate students and 12,666 postgraduate students. The university encompasses technical and management fields which offer 30 undergraduate and 71 postgraduate courses.It has around 1800 PhD candidates.</p>
 				<a href="/sandbox/login_for_campus.php" class="button">Login Here</a> </div>
-			<div class="ebox2"> <span class="fa fa-anchor"></span>
+			<div class="ebox2"> <span class="fas fa-user-graduate	" style='font-size:70px;color:blue'></span>
 				<div class="title">
-					<h2>For Student Login</h2>
-					<span class="byline">For all Students under VU</span> </div>
+				<br/>	<h2>Student</h2>
+					<span class="byline">Students under VU</span> </div>
 					<p>VU is one of the largest universities in India with 218 colleges affiliated to it with an intake capacity of over 467,100 undergraduate students and 12,666 postgraduate students. The university encompasses technical and management fields which offer 30 undergraduate and 71 postgraduate courses.It has around 1800 PhD candidates.</p>
-				<a href="/sandbox/student_login.php" class="button">Login Here</a> </div>
+				<a href="/sandbox/student_login.php"><button>Login Here</a></button </div>
 		</div>
 	</div>
 </div>
@@ -77,4 +78,4 @@ Date : 01-Jan-2020
 	<p>&copy; All rights reserved | Footer Details | Design by Mavoix Solutions</p>
 </div>
 </body>
-</Html>
+</html>

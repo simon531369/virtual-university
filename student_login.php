@@ -1,85 +1,3 @@
-<<<<<<< HEAD
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Bootstrap Example</title>
-    <a href="signin.html">Register</a>
-   <!----<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-=======
-<!--<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Bootstrap Example</title>
-    
-   <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1"> 
->>>>>>> daa583cee7dfd67688a2239f70cc15490fb41b9c
-    <meta http-equiv = "refresh" content = " time ; url = "/>
-    
-<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-
-<link href="css/global.css" type="text/css" rel="stylesheet">
-
-
-<script src="https://ajax.googlepis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-<body>
-    <div class="container-fluid bg">
-        <div class="row">
-            <div class="col-md-4 col-sm-4 col-xs-12"></div>
-            <div class="col-md-4 col-sm-4 col-xs-12">
-                <form class="form-container">
-                    <div class="form-group">
-                      <label for="exampleInputEmail1">Email </label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleInputPassword1">Password</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                    </div>
-                    <div class="form-group">
-                      
-                    </div>
-                    <div class="">
-                      <label>
-                        <input type="checkbox"> Remember me
-                      </label>
-                    </div>
-                    <button type="submit" class="btn btn-success btn-block">Login</button>
-<<<<<<< HEAD
-                    <button type="submit" class="btn btn-success btn-block">Register</button>
-=======
-                    <a href="signin.html">
-                    <button type="submit" class="btn btn-success btn-block">Register</button>
-                    </a>
->>>>>>> daa583cee7dfd67688a2239f70cc15490fb41b9c
-                </form>
-
-            </div>
-       <div class="col-md-4 col-sm-4 col-xs-12"></div>
-
-       </div>
-       </div>
-   
-      
-      
-</body>
-<<<<<<< HEAD
-</html>
-=======
-</html>-->
-
-
-
-
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -88,7 +6,7 @@
 <meta name="apple-mobile-web-app-title" content="CodePen">
 <link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
 <link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" />
-<title>CodePen - Login form - JQuery animate</title>
+<title>Login form - JQuery animate</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/FontAwesome.otf'>
@@ -106,9 +24,6 @@ body {
   background-attachment: fixed;
   font-family:sans-serif;
 }
-
-
-
 /*Start form style*/
 form {
   background-image: url('http://ryokb95.upload-website.com/login-signupform/imgs/1.jpg');
@@ -269,13 +184,9 @@ input[type="text"],input[type="email"],input[type="password"]  {
 </head>
 <body translate="no">
 <div id='AppendHere'></div>
-
 <form id="loginform" action="#">
 
-<h1>LOG IN</h1>
-<p><a href="#" target="_blank"> www.sitename.com</a></p>
-
-
+<h1 style="color:black;">LOG IN</h1>
 <div class="input-info">
 
 <i class="fa fa-user"></i>
@@ -293,7 +204,7 @@ input[type="text"],input[type="email"],input[type="password"]  {
 </div>
 <div class="log-sign">
 <button class="login" form="loginform"><i class="fa fa-mail-forward (alias)"></i> Log In</button>
-<a href= "/sandbox/signup.php">
+<a href="/sandbox/signup.php">
 <button class="signup" form="signupform"><i class="fa fa-plus"></i> Sign Up</button>
 </a>
 </div>
@@ -337,4 +248,4 @@ animate_Me("input[placeholder='Confirm Password']", ".fa-refresh");
 <script src="https://static.codepen.io/assets/editor/iframe/iframeRefreshCSS-e120fd1ef4e480df85dd5faf7ee953074e62dc3d6da49fdf75fe06deb33f93c5.js"></script>
 </body>
 </html>
->>>>>>> daa583cee7dfd67688a2239f70cc15490fb41b9c
+
