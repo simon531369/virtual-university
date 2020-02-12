@@ -1,0 +1,296 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="apple-touch-icon" type="image/png" href="https://static.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
+<meta name="apple-mobile-web-app-title" content="CodePen">
+<link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+<link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" />
+<title>CodePen - Pure Css Expanding Side Nav on Hover</title>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<style>
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+.global-wrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.global-wrapper aside {
+  position: relative;
+  width: 112px;
+  float: left;
+  text-align: center;
+  height: 100%;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid silver;
+}
+.global-wrapper aside h1 {
+  color: white;
+  border-radius: 100%;
+  width: 45px;
+  height: 45px;
+  margin: 25px auto;
+  background: #0FA0EB;
+}
+.global-wrapper aside ul {
+  list-style: none;
+  padding-left: 0;
+}
+.global-wrapper aside ul li {
+  padding: 20px 0 10px 0;
+  cursor: pointer;
+}
+.global-wrapper aside ul li:hover {
+  border-left: 3px solid #0FA0EB;
+  background: ghostwhite;
+}
+.global-wrapper aside ul li:hover i {
+  color: #0FA0EB !important;
+}
+.global-wrapper aside ul li .nav-item {
+  display: inline-block;
+  width: 30px;
+  overflow: hidden;
+  height: 30px;
+  transition: width 0.3s ease-in-out;
+  white-space: nowrap;
+  color: #858E99;
+}
+.global-wrapper aside ul li .nav-item i {
+  float: left;
+  position: relative;
+  top: -3px;
+  color: #858E99;
+  font-size: 30px;
+}
+.global-wrapper aside ul li .nav-item span {
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+.global-wrapper aside ul .active {
+  border-left: 3px solid #0FA0EB;
+  background: ghostwhite;
+}
+.global-wrapper aside ul .active i {
+  color: #0FA0EB !important;
+}
+.global-wrapper aside ul:nth-child(3) {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.global-wrapper main {
+  float: left;
+  width: calc(100% - 114px);
+  height: 100%;
+  overflow: scroll;
+  transition: all 0.3s ease-in-out;
+}
+.global-wrapper main #blackout-on-hover {
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+}
+.global-wrapper main header {
+  position: relative;
+  background: #0FA0EB;
+  width: 100%;
+  height: 264px;
+}
+.global-wrapper main header h2 {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  font-size: 34px;
+  left: 20px;
+}
+.global-wrapper main header nav {
+  position: fixed;
+  right: 20px;
+  top: 10px;
+  padding: 25px;
+  font-wieght: 100;
+  color: white;
+}
+.global-wrapper main #card-view {
+  padding: 20px;
+}
+.global-wrapper main #card-view article {
+  position: relative;
+  display: inline-block;
+  width: 250px;
+  height: 300px;
+  background: white;
+  border: 1px solid silver;
+  margin: 15px;
+  border-radius: 2px;
+}
+.global-wrapper main #card-view article .card-image {
+  width: 100%;
+  height: 150px;
+  background-color: #858E99;
+  background-image: url('https://static.pexels.com/photos/134392/pexels-photo-134392-large.jpeg');
+  background-position: center;
+  background-size: cover;
+}
+.global-wrapper main #card-view article .card-text {
+  padding: 0px 10px;
+}
+.global-wrapper main #card-view article button {
+  background: #0FA0EB;
+  border: 0;
+  color: white;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 10px 0;
+}
+.global-wrapper main #card-view article button:hover {
+  background: #858E99;
+}
+.global-wrapper aside:hover {
+  width: 300px;
+  transition: all 0.3s ease-in-out;
+}
+.global-wrapper aside:hover .nav-item {
+  display: inline-block;
+  width: 150px;
+  overflow: hidden;
+  height: 30px;
+  transition: all 0.3s ease-in-out;
+}
+.global-wrapper aside:hover .nav-item i {
+  float: left;
+}
+.global-wrapper aside:hover .nav-item span {
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+}
+.global-wrapper aside:hover ~ #main {
+  width: calc(100% - 302px);
+  transition: all 0.3s ease-in-out;
+}
+.global-wrapper aside:hover ~ #main #blackout-on-hover {
+  position: absolute;
+  background: black;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  opacity: 0.5;
+  transition: opacity 0.3s ease-in-out;
+}
+</style>
+<script>
+  window.console = window.console || function(t) {};
+</script>
+<script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+</head>
+<body translate="no">
+<body ng-app="app">
+<section class='global-wrapper' ng-controller="ctrl">
+<aside>
+<h1>a</h1>
+
+<ul>
+<li class="active">
+<div class="nav-item">
+<i class="material-icons">photo_library</i>
+<span>View More</span>
+</div>
+</li>
+<li>
+<div class="nav-item">
+<i class="material-icons">local_atm</i>
+<span>Transactions</span>
+</div>
+</li>
+</ul>
+
+<ul>
+<li>
+<div class="nav-item">
+<i class="material-icons">settings</i>
+<span>settings</span>
+</div>
+</li>
+<li>
+<div class="nav-item">
+<i class="material-icons">launch</i>
+<span>launch</span>
+</div>
+</li>
+<li>
+<div class="nav-item">
+<i class="material-icons">info_outline</i>
+<span>learn more</span>
+</div>
+</li>
+</ul>
+</aside>
+<main id="main">
+<div id="blackout-on-hover"></div>
+<header>
+<nav>Help ?</nav>
+<h2>View More</h2>
+</header>
+<section id="card-view">
+<article>
+<div class="card-image"></div>
+<div class="card-text">
+<h3>Cool Card</h3>
+<p>more cool text area for this cool card</p>
+</div>
+<button>Cool Button</button>
+</article>
+<article>
+<div class="card-image"></div>
+<div class="card-text">
+<h3>Cool Card</h3>
+<p>more cool text area for this cool card</p>
+</div>
+<button>Cool Button</button>
+</article>
+<article>
+<div class="card-image"></div>
+<div class="card-text">
+<h3>Cool Card</h3>
+<p>more cool text area for this cool card</p>
+</div>
+<button>Cool Button</button>
+</article>
+</section>
+</main>
+</section>
+</body>
+<script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-db44b196776521ea816683afab021f757616c80860d31da6232dedb8d7cc4862.js"></script>
+<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.min.js'></script>
+<script id="rendered-js">
+var app = angular.module('app', []);
+
+app.controller('ctrl', function ($scope, $timeout) {
+  // coming soon
+});
+//# sourceURL=pen.js
+    </script>
+</body>
+</html>
