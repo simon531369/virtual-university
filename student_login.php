@@ -293,7 +293,7 @@ input[type="text"],input[type="email"],input[type="password"]  {
 </div>
 <div class="log-sign">
 <button class="login" form="loginform"><i class="fa fa-mail-forward (alias)"></i> Log In</button>
-<a href="signup.html">
+<a href="/sandbox/signup.php">
 <button class="signup" form="signupform"><i class="fa fa-plus"></i> Sign Up</button>
 </a>
 </div>
@@ -307,7 +307,7 @@ input[type="text"],input[type="email"],input[type="password"]  {
 </button>
 </div>
 
-<p class="forget-password">If you forget your password please <a href="#">click here</a></p>
+<p class="forget-password">If you forget your password please <a href="/sandbox/create_pass.php">click here</a></p>
 </a>
 </a>
 </form>

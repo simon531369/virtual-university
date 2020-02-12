@@ -6,7 +6,7 @@
 <title>CodePen -Login/Sign-Up</title>
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
 <title>Login/Sign_Up</title>
-<link rel="stylesheet" href="\mavoix\k3project\sandbox\css\style_for_login.css" type="text/css" media="all" />
+<link rel="stylesheet" href="/sandbox/css/style_for_login.css" type="text/css" media="all" />
 </head>
 <body><br/>
 <br/>
@@ -22,7 +22,7 @@
       <input type="password" />
     </label>
     <p class="forgot-pass">Forgot password?</p>
-    <a href="\mavoix\k3project\sandbox\Campusdashboard.php">
+    <a href="/sandbox/campusdashboard.php">
     <button type="button" class="submit">Sign In</button></a>
     <button type="button" class="fb-btn">or connect with <span>gmail</span></button>
     <button type="button" class="fb-btn">or connect with   <span>facebook</span></button>
