@@ -19,7 +19,7 @@ Date : 01-Jan-2020
 <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
 <link rel="stylesheet" href="default.css"  type="text/css" media="all" />
 <link rel="stylesheet" href="fonts.css" type="text/css" media="all" />
-<<link rel="stylesheet" href="/sandbox/css/style_for_index.css" type="text/css" media="all" />
+<link rel="stylesheet" href="/sandbox/css/style_for_index.css" type="text/css" media="all" />
 </head>
 <body><br/><br/>
 <div id="header-wrapper">
@@ -63,7 +63,7 @@ Date : 01-Jan-2020
 		</div>
 	</div>
 </div>
-<div id="copyright" class="container">
+<div id= "copyright" class="container">
 <div class="cont" align="center">
 <input type="text" placeholder="Name"/>	
 <input type="text" placeholder="Email"/><br/>

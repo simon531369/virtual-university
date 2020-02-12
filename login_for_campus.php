@@ -10,7 +10,7 @@
 </head>
 <body><br/>
 <br/>
-<div class= "cont">
+<div class="cont">
   <div class="form sign-in">
     <h2>Welcome back </h2>
     <label>
