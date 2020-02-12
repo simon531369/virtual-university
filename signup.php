@@ -184,7 +184,7 @@ html, body {
 </div>
 <div class="form">
 <form>
-<div class="row">
+<div class= "row">
 <input type="text" name="firstname" placeholder="First name">
 <input type="text" name="lastname" placeholder="Last name">
 </div>
