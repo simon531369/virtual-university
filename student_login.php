@@ -6,7 +6,7 @@
 <meta name="apple-mobile-web-app-title" content="CodePen">
 <link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
 <link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" />
-<title>CodePen - Login form - JQuery animate</title>
+<title>Login form - JQuery animate</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/FontAwesome.otf'>
@@ -24,9 +24,6 @@ body {
   background-attachment: fixed;
   font-family:sans-serif;
 }
-
-
-
 /*Start form style*/
 form {
   background-image: url('http://ryokb95.upload-website.com/login-signupform/imgs/1.jpg');
@@ -187,13 +184,9 @@ input[type="text"],input[type="email"],input[type="password"]  {
 </head>
 <body translate="no">
 <div id='AppendHere'></div>
-
 <form id="loginform" action="#">
 
-<h1>LOG IN</h1>
-<p><a href="#" target="_blank"> www.sitename.com</a></p>
-
-
+<h1 style="color:black;">LOG IN</h1>
 <div class="input-info">
 
 <i class="fa fa-user"></i>
@@ -211,7 +204,7 @@ input[type="text"],input[type="email"],input[type="password"]  {
 </div>
 <div class="log-sign">
 <button class="login" form="loginform"><i class="fa fa-mail-forward (alias)"></i> Log In</button>
-<a href="signup.html">
+<a href="/sandbox/signup.php">
 <button class="signup" form="signupform"><i class="fa fa-plus"></i> Sign Up</button>
 </a>
 </div>
@@ -224,11 +217,15 @@ input[type="text"],input[type="email"],input[type="password"]  {
 <a href="#" target="_blank"><i class="fa fa-google"></i> Sign up with google</a>
 </button>
 </div>
-<a href="create_pass.php">
-<p class="forget-password">If you forget your password please <a href="#">click here</a></p>
+
+
+
+
+<p class= "forget-password">If you forget your password please <a href="/sandbox/create_pass.php">click here</a></p>
+
+
 </a>
-</a>
-</a>
+
 </form>
 
 <script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-db44b196776521ea816683afab021f757616c80860d31da6232dedb8d7cc4862.js"></script>
