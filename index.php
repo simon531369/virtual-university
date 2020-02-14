@@ -42,7 +42,6 @@ Date : 01-Jan-2020
 <div id="header-featured">
 	<div id="banner" class="container" > </div>
 </div>
-
 <div id="wrapper">
 	<div id="featured-wrapper">
 		<div id="featured" class="extra2 margin-btm container">
@@ -52,15 +51,15 @@ Date : 01-Jan-2020
 			<div class="ebox1"> <span class="fas fa-school" style='font-size:70px;color:blue'></span>
 				<div class="title">
 				<br/><h2>Campus</h2>
-					<span class="byline">For all campuses under VU</span> </div>
+					<span class="byline">For all campuses under VU</span></div>
 					<p>VU is one of the largest universities in India with 218 colleges affiliated to it with an intake capacity of over 467,100 undergraduate students and 12,666 postgraduate students. The university encompasses technical and management fields which offer 30 undergraduate and 71 postgraduate courses.It has around 1800 PhD candidates.</p>
-				<a href="/sandbox/login_for_campus.php" class="button">Login Here</a> </div>
-			<div class="ebox2"> <span class="fas fa-user-graduate	" style='font-size:70px;color:blue'></span>
+				<a href="/sandbox/login_for_campus.php" class="button">Login Here</a></div>
+			<div class="ebox2"> <span class="fas fa-user-graduate" style='font-size:70px;color:blue'></span>
 				<div class="title">
-				<br/>	<h2>Student</h2>
+				<br/><h2>Student</h2>
 					<span class="byline">Students under VU</span> </div>
 					<p>VU is one of the largest universities in India with 218 colleges affiliated to it with an intake capacity of over 467,100 undergraduate students and 12,666 postgraduate students. The university encompasses technical and management fields which offer 30 undergraduate and 71 postgraduate courses.It has around 1800 PhD candidates.</p>
-				<a href="/sandbox/student_login.php"><button>Login Here</a></button </div>
+				<a href="/sandbox/student_login.php" class="button">Login Here</a></div>
 		</div>
 	</div>
 </div>

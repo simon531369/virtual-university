@@ -11,22 +11,22 @@
 <body><br/>
 <br/>
 <div class="cont">
+<form method="post" action="">
   <div class="form sign-in">
     <h2>Welcome back </h2>
     <label>
-      <span>Enter Your Email</span>
-      <input type="email" />
+      <span>Enter Your Username</span>
+      <input type="text" id="txt_uname" name="txt_uname"/>
     </label>
     <label>
       <span>Enter Your Password</span>
-      <input type="password" />
+      <input type="password" id="txt_uname" name="txt_pwd"/>
     </label>
-    <p class="forgot-pass">Forgot password?</p>
-    <a href="/sandbox/campusdashboard.php">
-    <button type="button" class="submit">Sign In</button></a>
+    <p class="forgot-pass">Forgot password?</p><br/>
+    <input id="submit" type="submit" name="but_submit" value="Sign In"><br/>
     <button type="button" class="fb-btn">or connect with <span>gmail</span></button>
     <button type="button" class="fb-btn">or connect with   <span>facebook</span></button>
-  </div>
+  </div></form>
   <div class="sub-cont">
     <div class="img">
       <div class="img__text m--up">
@@ -72,5 +72,8 @@
   document.querySelector('.cont').classList.toggle('s--signup');
 });
     </script>
+<?php
+include($_SERVER['DOCUMENT_ROOT'].'/sandbox/api/campus_login.php');
+?>
 </body>
 </html>

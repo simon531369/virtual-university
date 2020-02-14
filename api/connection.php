@@ -1,6 +1,7 @@
 <?php
-$conn=mysqli_connect('k3beta.c7lkgbzlct6d.ap-south-1.rds.amazonaws.com','root','xtr12345');
-mysqli_select_db($conn,'k3beta');
+session_start();
+$conn=mysqli_connect('localhost','root','root');
+mysqli_select_db($conn,'k3alpha');
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
