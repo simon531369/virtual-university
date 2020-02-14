@@ -184,26 +184,27 @@ input[type="text"],input[type="email"],input[type="password"]  {
 </head>
 <body translate="no">
 <div id='AppendHere'></div>
-<form id="loginform" action="#">
+<form id="loginform" action="#" method="POST">
 
 <h1 style="color:black;">LOG IN</h1>
 <div class="input-info">
 
 <i class="fa fa-user"></i>
 
-<input type="text" placeholder="User-Name">
+<input type="text" name="username" id="username" placeholder="User-Name"/>
 <i class="fa fa-envelope"></i>
 
-<input type="email" placeholder="E-mail" required autocomplete="off" validate>
-<i class="fa fa-lock"></i>
+<!--<input type="email" placeholder="E-mail" required autocomplete="off" validate>
+<i class="fa fa-lock"></i>-->
 
-<input type="password" placeholder="Password">
+<input type="password" name="password" id="username" placeholder="Password"/>
+
 
 <input type="checkbox">
 <span>Remember Me</span><br>
 </div>
 <div class="log-sign">
-<button class="login" form="loginform"><i class="fa fa-mail-forward (alias)"></i> Log In</button>
+<input type="submit" name="login" id="login" value="submit">
 <a href="/sandbox/signup.php">
 <button class="signup" form="signupform"><i class="fa fa-plus"></i> Sign Up</button>
 </a>
@@ -212,6 +213,7 @@ input[type="text"],input[type="email"],input[type="password"]  {
 <button class="btn1">
 <a href="#" target="_blank"><i class="fa fa-facebook"></i> Sign up with facebook</a>
 </button>
+
 
 <button class="btn2">
 <a href="#" target="_blank"><i class="fa fa-google"></i> Sign up with google</a>
@@ -251,6 +253,45 @@ animate_Me("input[placeholder='Confirm Password']", ".fa-refresh");
 //# sourceURL=pen.js
     </script>
 <script src="https://static.codepen.io/assets/editor/iframe/iframeRefreshCSS-e120fd1ef4e480df85dd5faf7ee953074e62dc3d6da49fdf75fe06deb33f93c5.js"></script>
+
+
+<?php
+include($_SERVER['DOCUMENT_ROOT'].'/sandbox/api/connection.php');
+
+if(isset($_POST['login']))
+{
+  $username =$_POST['username'];
+  $password =$_POST['password'];
+
+  if ($username != "" && $password != ""){
+    $sql_query= "select count(*) as cntUser from system_users where username='".$username."' and password=".$password."'";
+    $result= mysqli_query($conn, $sql_query);
+    $row= mysqli_fetch_array($result);
+
+    $count= $row['cntUser'];
+    
+    if($count > 0){
+      $_SESSION['username']= $username;
+      echo"<script>
+      alert('Login Successful');
+      window.location.href='/sandbox/card.html';
+      </script>";
+
+    }
+  
+  
+    else{
+      echo "<script>
+          alert('Invalid Login');
+          </script>";
+    }
+  }
+  else{
+    echo "<script>
+          alert('please fill the details');
+          </script>";
+  }
+}
+?>
 </body>
 </html>
-
