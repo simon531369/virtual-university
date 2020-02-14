@@ -1,5 +1,10 @@
 <?php
+<<<<<<< HEAD
 $conn=mysqli_connect('localhost','root','');
+=======
+session_start();
+$conn=mysqli_connect('localhost','root','root');
+>>>>>>> d4718ec77f117baec82479112828b2e57d445821
 mysqli_select_db($conn,'k3alpha');
 
 if ($conn->connect_error) {
