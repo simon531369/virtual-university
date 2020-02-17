@@ -1,6 +1,6 @@
 <?php
 
-include($_SERVER['DOCUMENT_ROOT'].'/sandbox/api/connection.php');
+include "connection.php";
 if(isset($_POST['but_submit'])){
 
   $username = $_POST['txt_uname'];

@@ -159,7 +159,7 @@
   .tablesorter-bootstrap tbody > tr.odd:hover > td,
   .tablesorter-bootstrap tbody > tr.odd:hover + tr.tablesorter-childRow > td,
   .tablesorter-bootstrap tbody > tr.odd:hover + tr.tablesorter-childRow + tr.tablesorter-childRow > td {
-    background-color: hsl(210, 99%, 69% ;
+    background-color: hsl(210, 99%, 69% );
   }
   .tablesorter-bootstrap .tablesorter-processing {
     background-image: url('data:image/gif;base64,R0lGODlhFAAUAKEAAO7u7lpaWgAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQBCgACACwAAAAAFAAUAAACQZRvoIDtu1wLQUAlqKTVxqwhXIiBnDg6Y4eyx4lKW5XK7wrLeK3vbq8J2W4T4e1nMhpWrZCTt3xKZ8kgsggdJmUFACH5BAEKAAIALAcAAAALAAcAAAIUVB6ii7jajgCAuUmtovxtXnmdUAAAIfkEAQoAAgAsDQACAAcACwAAAhRUIpmHy/3gUVQAQO9NetuugCFWAAAh+QQBCgACACwNAAcABwALAAACE5QVcZjKbVo6ck2AF95m5/6BSwEAIfkEAQoAAgAsBwANAAsABwAAAhOUH3kr6QaAcSrGWe1VQl+mMUIBACH5BAEKAAIALAIADQALAAcAAAIUlICmh7ncTAgqijkruDiv7n2YUAAAIfkEAQoAAgAsAAAHAAcACwAAAhQUIGmHyedehIoqFXLKfPOAaZdWAAAh+QQFCgACACwAAAIABwALAAACFJQFcJiXb15zLYRl7cla8OtlGGgUADs=');
@@ -167,7 +167,7 @@
     background-repeat: no-repeat;
   }
   .tablesorter-bootstrap tr.odd td.primary {
-    background-color: hsl(210, 99%, 69%;
+    background-color: hsl(210, 99%, 69%);
   }
   .tablesorter-bootstrap td.primary,
   .tablesorter-bootstrap tr.even td.primary {

@@ -73,7 +73,7 @@
 });
     </script>
 <?php
-include($_SERVER['DOCUMENT_ROOT'].'/sandbox/api/campus_login.php');
+include "campus_login.php";
 ?>
 </body>
 </html>

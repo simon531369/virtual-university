@@ -34,7 +34,7 @@
   <p class="title">UG Course</p>
   <h4>Duration: 3 Yrs</h4>
   <h5>Seats Available:100</h5>
-  <p><button>Know More</button></p>
+  <a href="/sandbox/campus_course_details.php"><p><button>Know More</button></p></a>
 </div></div>
 <div>
 <div class="card">
@@ -43,7 +43,7 @@
   <p class="title">PG Course</p>
   <h4>Duration: 3 Yrs</h4>
   <h5>Seats Available:120</h5>
-  <p><button>Know More</button></p>
+  <a href="/sandbox/campus_course_details.php"><p><button>Know More</button></p></a>
 </div></div>
 <div>
 <div class="card">
@@ -52,7 +52,7 @@
   <p class="title">UG Course</p>
   <h4>Duration: 4 Yrs</h4>
   <h5>Seats Available:150</h5>
-  <p><button>Know More</button></p>
+  <a href="/sandbox/campus_course_details.php"><p><button>Know More</button></p></a>
 </div></div>
 <div>
 <div class="card">
@@ -61,7 +61,7 @@
   <p class="title">UG Course</p>
   <h4>Duration: 4 Yrs</h4>
   <h5>Seats Available:160</h5>
-  <p><button>Know More</button></p>
+  <a href="/sandbox/campus_course_details.php"><p><button>Know More</button></p></a>
 </div></div>
 <div>
 <div class="card">
@@ -70,7 +70,7 @@
   <p class="title">UG Course</p>
   <h4>Duration: 3 Yrs</h4>
   <h5>Seats Available:60</h5>
-  <p><button>Know More</button></p>
+  <a href="/sandbox/campus_course_details.php"><p><button>Know More</button></p></a>
 </div></div>
 <div>
 <div class="card">
@@ -79,7 +79,7 @@
   <p class="title">UG Course</p>
   <h4>Duration: 3 Yrs</h4>
   <h5>Seats Available:60</h5>
-  <p><button>Know More</button></p>
+  <a href="/sandbox/campus_course_details.php"><p><button>Know More</button></p></a>
 </div></div>
 <div>
 <div class="card">
@@ -88,7 +88,7 @@
   <p class="title">UG Course</p>
   <h4>Duration: 3 Yrs</h4>
   <h5>Seats Available:60</h5>
-  <p><button>Know More</button></p>
+  <a href="/sandbox/campus_course_details.php"><p><button>Know More</button></p></a>
 </div></div>
 <div>
 <div class="card">
@@ -97,7 +97,7 @@
   <p class="title">UG Course</p>
   <h4>Duration: 3 Yrs</h4>
   <h5>Seats Available:60</h5>
-  <p><button>Know More</button></p>
+  <a href="/sandbox/campus_course_details.php"><p><button>Know More</button></p></a>
 </div></div>
 <div>
 <div class="card">
@@ -106,7 +106,7 @@
   <p class="title">UG Course</p>
   <h4>Duration: 3 Yrs</h4>
   <h5>Seats Available:60</h5>
-  <p><button>Know More</button></p>
+  <a href="/sandbox/campus_course_details.php"><p><button>Know More</button></p></a>
 </div></div>
 <div>
 <div class="card">
@@ -115,7 +115,7 @@
   <p class="title">UG Course</p>
   <h4>Duration: 3 Yrs</h4>
   <h5>Seats Available:60</h5>
-  <p><button>Know More</button></p>
+  <a href="/sandbox/campus_course_details.php"><p><button>Know More</button></p></a>
 </div></div>
 </div>
 <div class="prev">
