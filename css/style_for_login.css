@@ -273,6 +273,9 @@
     bottom: 5px;
     width: 32px;
   }
+  body{
+    background-color: #4158d0;
+  }
   .icon-link img {
     width: 100%;
     vertical-align: top;
@@ -281,8 +284,4 @@
     left: auto;
     right: 5px;
   }
-  body{
-    background-color: #4158D0;
-
-    
-    }
+  

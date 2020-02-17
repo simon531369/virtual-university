@@ -173,7 +173,7 @@ html, body {
 <body translate="no">
 <div class="container">
 <div class="box" id="sign-up">
-<a class="back" href="/sandbox/student_login.php"><span class="back-arrow">Back</span></a>
+<a class="back" href="/sandbox/api/student_login.php"><span class="back-arrow">Back</span></a>
 <div class="brand">
 <div class="logo">
 <div class="square"></div>
