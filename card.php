@@ -8,7 +8,7 @@
 <meta name="apple-mobile-web-app-title" content="CodePen">
 <link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
 <link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" />
-<title>CodePen - A Pen by  Davey Holler</title>
+<title>card view</title>
 <script>
   window.console = window.console || function(t) {};
 </script>
@@ -151,9 +151,7 @@
 <div class="card" ng-repeat="path in paths">
 <div class="card__icon"><img src="{{path.iconURL}}" alt="{{path.title}}"></div>
 <div class="card__title">{{path.title}}</div>
-<div class="card__description">{{path.courseCount}} Courses &mdash; {{path.courseLength}} Hrs</div>
-<!--<a href="{{path.assessmentURL}}" class="card__link">Take Assessment</a>-->
-<a href="{{path.registerURL}}" class="card__button">Select</a>
+<a href="/sandbox/alcorn_details.php" class="card__button">Select</a>
 </div>
 </div>
 </section>
@@ -171,7 +169,7 @@
       .controller('PathCtrl', ['$scope', function($scope) {
         $scope.paths = [
           {
-            "iconURL": "https://res.cloudinary.com/dpdmedxbk/image/upload/v1478546262/sales-person.svg",
+            "iconURL": "https://res.cloudinary.com/dpdmedxbk/image/upload/v1478546262/revradar.svg",
             "title": "Alcorn College",
             "courseCount": 10,
             "assessmentURL": "/sandbox/collage_details.php",
@@ -179,35 +177,32 @@
             
            
           }, {
-            "iconURL": "https://res.cloudinary.com/dpdmedxbk/image/upload/v1478546262/sales-mgmt.svg",
+            "iconURL": "https://res.cloudinary.com/dpdmedxbk/image/upload/v1478546262/revradar.svg",
             "title": "California Western College",
-            "courseCount": 21,
-            "courseLength": 7,
-            "assessmentURL": "https://google.com",
-            "registerURL": "https://google.com"
+            
           }, {
-            "iconURL": "https://res.cloudinary.com/dpdmedxbk/image/upload/v1478546262/internet-sales.svg",
+            "iconURL": "https://res.cloudinary.com/dpdmedxbk/image/upload/v1478546262/revradar.svg",
             "title": "Beaver College",
             "courseCount": 6,
             "courseLength": 1.5,
             "assessmentURL": "https://google.com",
             "registerURL": "https://google.com"
           }, {
-            "iconURL": "https://res.cloudinary.com/dpdmedxbk/image/upload/v1478546262/service-scheduler.svg",
+            "iconURL": "https://res.cloudinary.com/dpdmedxbk/image/upload/v1478546262/revradar.svg",
             "title": "Gateway Technical College",
             "courseCount": 6,
             "courseLength": 1.5,
             "assessmentURL": "https://google.com",
             "registerURL": "https://google.com"
           }, {
-            "iconURL": "https://res.cloudinary.com/dpdmedxbk/image/upload/v1478546262/marketing.svg",
+            "iconURL": "https://res.cloudinary.com/dpdmedxbk/image/upload/v1478546262/revradar.svg",
             "title": "Denver Automotive College",
             "courseCount": 5,
             "courseLength": 3,
             "assessmentURL": "https://google.com",
             "registerURL": "https://google.com"
           }, {
-            "iconURL": "https://res.cloudinary.com/dpdmedxbk/image/upload/v1478546262/revradar-mgmt.svg",
+            "iconURL": "https://res.cloudinary.com/dpdmedxbk/image/upload/v1478546262/revradar.svg",
             "title": "California College of Arts",
             "courseCount": 18,
             "courseLength": 7,
@@ -221,7 +216,7 @@
             "assessmentURL": "https://google.com",
             "registerURL": "https://google.com"
           }, {
-            "iconURL": "https://res.cloudinary.com/dpdmedxbk/image/upload/v1478546262/desking.svg",
+            "iconURL": "https://res.cloudinary.com/dpdmedxbk/image/upload/v1478546262/revradar.svg",
             "title": "Macon Technical College",
             "courseCount": 5,
             "courseLength": 4,

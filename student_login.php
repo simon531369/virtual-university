@@ -108,6 +108,19 @@ input[type="text"],input[type="email"],input[type="password"]  {
     border: 1px solid #435688;
     outline: none;
 }
+
+input[type=submit]{/*button login style*/
+    padding: 10px;
+    margin-top: 16px;
+    background: #435688;
+    color: #fff;
+    width: 103px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 1px solid #435688;
+    outline: none;
+}
 .signup {/*button signup style*/
   background: #9e3434;
   border: 1px solid #9e3434;
@@ -264,7 +277,7 @@ if(isset($_POST['login']))
   $password =$_POST['password'];
 
   if ($username != "" && $password != ""){
-    $sql_query= "select count(*) as cntUser from system_users where username='".$username."' and password=".$password."'";
+    $sql_query= "select count(*) as cntUser from system_users where username='".$username."' and password='".$password."'";
     $result= mysqli_query($conn, $sql_query);
     $row= mysqli_fetch_array($result);
 
@@ -274,7 +287,7 @@ if(isset($_POST['login']))
       $_SESSION['username']= $username;
       echo"<script>
       alert('Login Successful');
-      window.location.href='/sandbox/card.html';
+      window.location.href='/sandbox/card.php';
       </script>";
 
     }
