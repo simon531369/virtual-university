@@ -1,5 +1,6 @@
 <?php
-$conn=mysqli_connect('k3beta.c7lkgbzlct6d.ap-south-1.rds.amazonaws.com','root','xtr12345');
+$conn=mysqli_connect('k3beta.c7lkgbzlct6d.ap-south-l.rds.amazonaws.com','root','xtr12345');
+
 mysqli_select_db($conn,'k3beta');
 
 if ($conn->connect_error) {
@@ -7,7 +8,7 @@ if ($conn->connect_error) {
 }
 else
 {
-$db_name='k3beta';
+    $db_name='k3beta';
 $app_name="InternBuddy";
 $app_version="1.0";
 $app_logo='<img src="admin/images/logo.png" width="158px" class="brand-logo">';
@@ -18,5 +19,6 @@ $footer="<a href='http://www.mavoix.in' target='_blank' class='text-bold-800 gre
 $project_name="InternBuddy";
 $footer_content="Designed & Developed By:";
 $developed_by="<a href='http://www.mavoix.in' target='_blank' class='text-bold-800 grey darken-2'>Mavoix Solutions Pvt Ltd</a>";
+
 }
 ?>
