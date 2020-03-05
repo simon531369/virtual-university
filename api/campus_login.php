@@ -1,5 +1,5 @@
 <?php
-include "connection.php";
+include "api/connection.php";
 if(isset($_POST['but_submit'])){
 
   $username = $_POST['txt_uname'];
