@@ -48,5 +48,4 @@ $project_name="InternBuddy";
 $footer_content="Designed & Developed By:";
 $developed_by="<a href='http://www.mavoix.in' target='_blank' class='text-bold-800 grey darken-2'>Mavoix Solutions Pvt Ltd</a>";
 
-}
 ?>
