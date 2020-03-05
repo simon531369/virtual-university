@@ -1,5 +1,5 @@
 <?php
-$conn=mysqli_connect('k3beta.c7lkgbzlct6d.ap-south-l.rds.amazonaws.com','root','xtr12345');
+$conn=mysqli_connect('k3beta.c7lkgbzlct6d.ap-south-l.rds.amazonaws.com','root','maV01X615');
 
 mysqli_select_db($conn,'k3beta');
 
