@@ -1,9 +1,9 @@
 <?php 
-$db = mysqli_init();
-mysqli_options ($db, MYSQLI_OPT_SSL_VERIFY_SERVER_CERT, true);
-$db->ssl_set(NULL, NULL, '/var/tmp/rds-ca-2019-root.pem', NULL, NULL);
-$conn = mysqli_real_connect ($db, 'k3beta.c7lkgbzlct6d.ap-south-1.rds.amazonaws.com', 'root', 'maV01X615', 'k3beta', 3306, NULL, MYSQLI_CLIENT_SSL);
-if (!$conn)
+$conn = mysqli_init();
+mysqli_options ($conn, MYSQLI_OPT_SSL_VERIFY_SERVER_CERT, true);
+$conn->ssl_set(NULL, NULL, '/var/tmp/rds-ca-2019-root.pem', NULL, NULL);
+$db = mysqli_real_connect ($conn, 'k3beta.c7lkgbzlct6d.ap-south-1.rds.amazonaws.com', 'root', 'maV01X615', 'k3beta', 3306, NULL, MYSQLI_CLIENT_SSL);
+if (!$db)
 {
     die ('Connect error (' . mysqli_connect_errno() . '): ' . mysqli_connect_error() . "\n");
 } else {
