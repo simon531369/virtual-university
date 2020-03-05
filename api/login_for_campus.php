@@ -1,3 +1,6 @@
+<?php
+include "api/campus_login.php";
+?>
 <html>
 <head>
 <link rel="apple-touch-icon" type="image/png" href="https://static.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
@@ -370,9 +373,6 @@ body{
     document.querySelector('.img__btn').addEventListener('click', function () {
   document.querySelector('.cont').classList.toggle('s--signup');
 });
-    </script>
-<?php
-include "campus_login.php";
-?>
+</script>
 </body>
 </html>
