@@ -218,7 +218,7 @@ input[type=submit]{/*button login style*/
 </div>
 <div class="log-sign">
 <input type="submit" name="login" id="login" value="submit">
-<a href="/sandbox/signup.php">
+<a href="signup.php">
 <button class="signup" form="signupform"><i class="fa fa-plus"></i> Sign Up</button>
 </a>
 </div>
@@ -236,7 +236,7 @@ input[type=submit]{/*button login style*/
 
 
 
-<p class= "forget-password">If you forget your password please <a href="/sandbox/create_pass.php">click here</a></p>
+<p class= "forget-password">If you forget your password please <a href="create_pass.php">click here</a></p>
 
 
 </a>

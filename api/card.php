@@ -151,7 +151,7 @@
 <div class="card" ng-repeat="path in paths">
 <div class="card__icon"><img src="{{path.iconURL}}" alt="{{path.title}}"></div>
 <div class="card__title">{{path.title}}</div>
-<a href="/sandbox/alcorn_details.php" class="card__button">Select</a>
+<a href="alcorn_details.php" class="card__button">Select</a>
 </div>
 </div>
 </section>

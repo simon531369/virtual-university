@@ -10,7 +10,126 @@
 <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.css'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="/sandbox/css/style_for_campusdashboard.css">
+<style>
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 240px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    height:50%;
+    border-radius: 18px;
+
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #3e5c8a;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 12px;
+  }
+  
+ a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  img {
+    width: 80%;
+    height: 170px;
+    padding: 5px;
+    border-radius: 12px;
+  }
+  
+  h2 {
+    text-align: center;
+    
+  }
+  
+  .slick-dots {
+    text-align: center;
+    margin: 0 0 10px 0;
+    padding: 0;
+  }
+  .slick-dots li {
+    display: inline-block;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  .slick-dots li.slick-active button {
+    background-color: black;
+  }
+  .slick-dots li button {
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+    background-color: #999;
+    border: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+  }
+  .slick-dots li :hover {
+    background-color: black;
+  }
+  
+  /* Custom Arrow */
+  .prev {
+    color: #999;
+    position: absolute;
+    top: 38%;
+    left: -2em;
+    font-size: 1.5em;
+  }
+  .prev :hover {
+    cursor: pointer;
+    color: black;
+  }
+  
+  .next {
+    color: #999;
+    position: absolute;
+    top: 38%;
+    right: -2em;
+    font-size: 1.5em;
+  }
+  .next :hover {
+    cursor: pointer;
+    color: black;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .next {
+      display: none !important;
+    }
+  }
+</style>
 <script>
   window.console = window.console || function(t) {};
   if (document.location.search.match(/type=embed/gi)) {
@@ -34,7 +153,7 @@
   <p class="title">UG Course</p>
   <h4>Duration: 3 Yrs</h4>
   <h5>Seats Available:100</h5>
-  <a href="/sandbox/campus_course_details.php"><p><button>Know More</button></p></a>
+  <a href="campus_course_details.php"><p><button>Know More</button></p></a>
 </div></div>
 <div>
 <div class="card">
@@ -43,7 +162,7 @@
   <p class="title">PG Course</p>
   <h4>Duration: 3 Yrs</h4>
   <h5>Seats Available:120</h5>
-  <a href="/sandbox/campus_course_details.php"><p><button>Know More</button></p></a>
+  <a href="campus_course_details.php"><p><button>Know More</button></p></a>
 </div></div>
 <div>
 <div class="card">
@@ -52,7 +171,7 @@
   <p class="title">UG Course</p>
   <h4>Duration: 4 Yrs</h4>
   <h5>Seats Available:150</h5>
-  <a href="/sandbox/campus_course_details.php"><p><button>Know More</button></p></a>
+  <a href="campus_course_details.php"><p><button>Know More</button></p></a>
 </div></div>
 <div>
 <div class="card">
@@ -61,7 +180,7 @@
   <p class="title">UG Course</p>
   <h4>Duration: 4 Yrs</h4>
   <h5>Seats Available:160</h5>
-  <a href="/sandbox/campus_course_details.php"><p><button>Know More</button></p></a>
+  <a href="campus_course_details.php"><p><button>Know More</button></p></a>
 </div></div>
 <div>
 <div class="card">
@@ -70,7 +189,7 @@
   <p class="title">UG Course</p>
   <h4>Duration: 3 Yrs</h4>
   <h5>Seats Available:60</h5>
-  <a href="/sandbox/campus_course_details.php"><p><button>Know More</button></p></a>
+  <a href="campus_course_details.php"><p><button>Know More</button></p></a>
 </div></div>
 <div>
 <div class="card">
@@ -79,7 +198,7 @@
   <p class="title">UG Course</p>
   <h4>Duration: 3 Yrs</h4>
   <h5>Seats Available:60</h5>
-  <a href="/sandbox/campus_course_details.php"><p><button>Know More</button></p></a>
+  <a href="campus_course_details.php"><p><button>Know More</button></p></a>
 </div></div>
 <div>
 <div class="card">
@@ -88,7 +207,7 @@
   <p class="title">UG Course</p>
   <h4>Duration: 3 Yrs</h4>
   <h5>Seats Available:60</h5>
-  <a href="/sandbox/campus_course_details.php"><p><button>Know More</button></p></a>
+  <a href="campus_course_details.php"><p><button>Know More</button></p></a>
 </div></div>
 <div>
 <div class="card">
@@ -97,7 +216,7 @@
   <p class="title">UG Course</p>
   <h4>Duration: 3 Yrs</h4>
   <h5>Seats Available:60</h5>
-  <a href="/sandbox/campus_course_details.php"><p><button>Know More</button></p></a>
+  <a href="campus_course_details.php"><p><button>Know More</button></p></a>
 </div></div>
 <div>
 <div class="card">
@@ -106,7 +225,7 @@
   <p class="title">UG Course</p>
   <h4>Duration: 3 Yrs</h4>
   <h5>Seats Available:60</h5>
-  <a href="/sandbox/campus_course_details.php"><p><button>Know More</button></p></a>
+  <a href="campus_course_details.php"><p><button>Know More</button></p></a>
 </div></div>
 <div>
 <div class="card">
@@ -115,7 +234,7 @@
   <p class="title">UG Course</p>
   <h4>Duration: 3 Yrs</h4>
   <h5>Seats Available:60</h5>
-  <a href="/sandbox/campus_course_details.php"><p><button>Know More</button></p></a>
+  <a href="campus_course_details.php"><p><button>Know More</button></p></a>
 </div></div>
 </div>
 <div class="prev">

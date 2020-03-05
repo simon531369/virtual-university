@@ -17,7 +17,7 @@ if(isset($_POST['login']))
       $_SESSION['username']= $username;
       echo"<script>
       alert('Login Successful');
-      window.location.href='/sandbox/card.php';
+      window.location.href='card.php';
       </script>";
 
     }

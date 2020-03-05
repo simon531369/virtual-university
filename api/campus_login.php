@@ -17,7 +17,7 @@ if(isset($_POST['but_submit'])){
             $_SESSION['username'] = $username;
             echo "<script>
             alert('Login Successful');
-            window.location.href='/sandbox/campusdashboard.php';
+            window.location.href='campusdashboard.php';
             </script>";
         }   
         else{

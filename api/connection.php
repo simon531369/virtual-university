@@ -8,7 +8,7 @@ if ($conn->connect_error) {
 }
 else
 {
-    $db_name='k3beta';
+$db_name='k3beta';
 $app_name="InternBuddy";
 $app_version="1.0";
 $app_logo='<img src="admin/images/logo.png" width="158px" class="brand-logo">';
