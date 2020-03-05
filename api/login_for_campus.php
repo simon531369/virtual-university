@@ -1,5 +1,5 @@
 <?php
-include "api/campus_login.php";
+include "api/connection.php";
 ?>
 <html>
 <head>
@@ -376,3 +376,6 @@ body{
 </script>
 </body>
 </html>
+<?php
+include "api/campus_login.php";
+?>
