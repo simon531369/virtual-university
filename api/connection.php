@@ -1,7 +1,7 @@
 <?php 
 $db = mysqli_init( );
 mysqli_options($db, MYSQLI_OPT_SSL_VERIFY_SERVER_CERT, true);
-mysqli_ssl_set($db, NULL, NULL, '/usr/local/mysql/openssl/cacert.pem', NULL, NULL);
+mysqli_ssl_set($db, NULL, NULL, '/var/tmp/rds-ca-2019-root.pem', NULL, NULL);
 $conn = mysqli_real_connect($db, 'k3beta.c7lkgbzlct6d.ap-south-1.rds.amazonaws.com', 'root', 'maV01X615', 'k3beta', 3306, NULL, MYSQLI_CLIENT_SSL);
 mysqli_select_db($conn,'k3beta');
 if ($conn->connect_error) {
