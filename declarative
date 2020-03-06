@@ -1,0 +1,10 @@
+pipeline{
+    agent any
+    stages{
+        stage("git checkout"){
+            steps{
+                git credentialsId: 'c4ab164b-dfa8-4057-9ed2-91367cb55b2f', url: 'https://github.com/internbuddy/virtual-university'
+            }
+        }
+    }
+}    
