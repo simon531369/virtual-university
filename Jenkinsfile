@@ -1,40 +1,16 @@
-pipeline {
 
-    agent any
-
-    stages {
-
-        stage('clone repo and clean it') {
-
-            steps {
-                
-                
-                sh "mvn clean"
-
-            }
-
-        }
-
-        stage('Test') {
-
-            steps {
-
-                sh "mvn test"
-
-            }
-
-        }
-
-        stage('Deploy') {
-
-            steps {
-
-                sh "mvn package "
-
-            }
-
-        }
-
-    }
+node('slave') {
+       
+        stage('maven_compile'){
+			sh label: '', script: 'mvn compile'
+		}
+			
+		stage('maven_test'){
+			sh label: '', script: 'mvn test'
+		}
+        stage('maven_deploy'){
+			sh label: '', script: 'mvn test'
+		}
+	
 
 }
